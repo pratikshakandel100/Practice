@@ -1,13 +1,14 @@
 import './App.css';
-function Title(){
-  return <h1>ROJGARIHUB</h1>
-}
+// import Producttab from './Producttab.jsx';
+import Title from './Title.jsx';
+import Producttab  from './Producttab.jsx'; 
+
 function App() {
-  return <div>
-    <p>I am here.</p>
-    <Title></Title>
-    <h1>Hello</h1>
-    </div>;
+  return <>
+    <Producttab></Producttab>
+    
+    
+    </>;
 }
 export default App ;
 
